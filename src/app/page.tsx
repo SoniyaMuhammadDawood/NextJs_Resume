@@ -8,6 +8,7 @@ import { SiTailwindcss } from "react-icons/si";
 import { TbBrandJavascript } from "react-icons/tb";
 import { IoLogoHtml5 } from "react-icons/io";
 import { DiCss3 } from "react-icons/di";
+import { SiPython } from "react-icons/si";
 
 
 export default function Home() {
@@ -98,7 +99,15 @@ export default function Home() {
                 <DiCss3 className="text-blue-600 text-3xl"/>
                 <div className="ml-2">Css</div>
               </div>
-            </div>
+
+
+            <div className="flex items-center my-1 relative w-6 h-6">
+  <SiPython className="text-yellow-400 text-2xl absolute left-0 top-0" style={{ clipPath: 'inset(0 0 50% 0)' }} />
+  <SiPython className="text-blue-700 text-2xl absolute left-0 top-0" style={{ clipPath: 'inset(50% 0 0 0)' }} />
+  <div className="ml-8">Python</div>
+</div>
+
+          </div>
           </div>
 
 
@@ -170,10 +179,10 @@ export default function Home() {
 
               <div className="flex flex-col">
                 <p className="text-lg font-bold text-gray-700">
-                  Snakes & Lattes | Accounting Associate 
+                  Accounting Associate 
                 </p>
                 <p className="font-semibold text-sm text-gray-700">
-                  2023 - Present
+                  2023 - Present Remote
                 </p>
                 <p className="font-semibold text-sm text-gray-700 mt-2 mb-1">
                   Key Responsibilities
@@ -191,7 +200,7 @@ export default function Home() {
                 </p>
                 <p className="font-semibold text-sm text-gray-700">2024-2025</p>
                 
-                <p>Student at GIAIC , Learning Html, Tailwind css, typescript/javascript, NextJs</p>
+                <p>Student at GIAIC , Learning Html | Tailwind css | typescript/javascript | NextJs | Python</p>
               </div>
             </div>
           </div>
